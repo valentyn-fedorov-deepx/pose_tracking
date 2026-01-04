@@ -1,0 +1,44 @@
+{
+  "results": [
+    {
+      "video": "indoor_01.mp4",
+      "backend": "yolo_pose",
+      "pose_model": "yolov8n-pose.pt",
+      "detector_model": null,
+      "frame_count": 9586,
+      "total_time_sec": 440.1492075000424,
+      "avg_fps": 21.77897821160811,
+      "avg_latency_ms": 45.91583637596937
+    },
+    {
+      "video": "indoor_01.mp4",
+      "backend": "movenet_yolo_roi",
+      "pose_model": "models/movenet_singlepose_lightning_192x192.onnx",
+      "detector_model": "yolov8n.pt",
+      "frame_count": 9586,
+      "total_time_sec": 453.6488638999872,
+      "avg_fps": 21.130880649826466,
+      "avg_latency_ms": 47.32410430836504
+    },
+    {
+      "video": "outdoor_01.mp4",
+      "backend": "yolo_pose",
+      "pose_model": "yolov8n-pose.pt",
+      "detector_model": null,
+      "frame_count": 330,
+      "total_time_sec": 25.29141810000874,
+      "avg_fps": 13.047904182165489,
+      "avg_latency_ms": 76.64066090911739
+    },
+    {
+      "video": "outdoor_01.mp4",
+      "backend": "movenet_yolo_roi",
+      "pose_model": "models/movenet_singlepose_lightning_192x192.onnx",
+      "detector_model": "yolov8n.pt",
+      "frame_count": 330,
+      "total_time_sec": 20.86662719992455,
+      "avg_fps": 15.814726397239378,
+      "avg_latency_ms": 63.232203636135004
+    }
+  ]
+}
